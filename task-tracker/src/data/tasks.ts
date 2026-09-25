@@ -1,4 +1,6 @@
-export const initialTasks = [
+import type { TaskType } from "../interfaces/tasks";
+
+export const initialTasks : TaskType[] = [
 	{
 		id: 1,
 		title: "Lära mig TypeScript",
